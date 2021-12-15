@@ -50,5 +50,6 @@ public class CRC {
             System.out.println("Data is valid");
         else
             System.out.println("Data is invalid");
+        sc.close();
     }    
 }
