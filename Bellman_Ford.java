@@ -31,7 +31,7 @@ public class Bellman_Ford {
             }
         }
         for (int vertex= 1; vertex <= n; vertex++) {
-            System.out.println("Distance of source "+source+" to "+vertex+" is"+d[vertex]);
+            System.out.println("Distance of source "+source+" to "+vertex+" is "+d[vertex]);
         }
     }
     public static void main(String[] args) {
