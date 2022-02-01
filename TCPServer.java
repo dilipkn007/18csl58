@@ -24,7 +24,7 @@ public class TCPServer {
             out.writeUTF(fileContent.toString());
             System.out.println("FILE SENT SUCCESSFULLY");
         } catch (Exception e) {
-            System.out.println("getMessage()");
+            System.out.println(e.getMessage());
             out.writeUTF("FILE DOESN'T EXIST");
         }
     }
